@@ -48,7 +48,7 @@ This module covers how some security aspects can be analyzed and modeled. Specif
 
 ## Acknowledgments 
 
-The material used during the course and collected in this repository has been prepared with the help of many colleagues. Angelica Liguori is the owner of the code for watermarking AI models, while Marco Zuppelli prepared the digital media and network traffic examples. Giacomo Benedetti provided several examples, code, and ideas on the security of the software supply chain. Luca Veltri shared the material used in his network security course. 
+The material used during the course and collected in this repository has been prepared with the help of many colleagues. Angelica Liguori is the owner of the code for watermarking AI models, while Marco Zuppelli prepared the digital media and network traffic examples. Giacomo Benedetti provided several examples, code, and ideas on the security of the software supply chain. Luca Veltri and Matteo Repetto shared the material used in their network security course. 
 
 ## Contacts
 
