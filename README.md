@@ -24,7 +24,7 @@ Il corso è **organizzato** in moduli che trattano un tema base della sicurezza 
 
 ## Organization of the Repository
 
-Each module has its own set of material, which may vary according to the topic. The general organization of the the repository relies upon the following folders:
+Each module has its own set of material, which may vary according to the topic. The general organization of the the repository is based on the following folders:
 
 - Slides: the .pdf version of the slides;
 - Examples: various examples shown during the course, e.g., code, scripts, and outputs;
