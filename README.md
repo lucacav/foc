@@ -37,7 +37,7 @@ This module discusses some bureaucracy and rules (e.g., what is needed to pass t
 
 ## Module 1 - Introduction and Basics
 
-This module addresses some introductory information (e.g., the relevance of cybersecurity aspects), the Cyber Kill Chain, concepts related to the attack surface and attack surface reduction practices, and a brief discussion on the importance of considering human aspects. The related material contains some reference paper and reports. 
+This module addresses some introductory information (e.g., the relevance of cybersecurity aspects), the Cyber Kill Chain, concepts related to the attack surface and attack surface reduction practices, and a brief discussion on the importance of considering human aspects. The related material contains some reference papers and official reports. 
 
 ## Module 2 - Security Analysis and Modeling
 
