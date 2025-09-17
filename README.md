@@ -41,7 +41,7 @@ This module addresses some introductory information (e.g., the relevance of cybe
 
 ## Module 2 - Security Analysis and Modeling
 
-This module covers how some security aspects can be analyzed and modeled. Specifically, it covers the Common Weaknesses Enumeration (CWE), the Common Vulnerability Enumeration (CVE), the Common Vulnerability Scoring System (CVSS), as well as a basic discussion on testing approaches (static and fuzzing). The related material contains some reference paper and tutorial/challenge for fuzz-testing the xpdf package via the AFL fuzzer. 
+This module covers how some security aspects can be analyzed and modeled. Specifically, it covers the Common Weaknesses Enumeration (CWE), the Common Vulnerability Enumeration (CVE), the Common Vulnerability Scoring System (CVSS), as well as a basic discussion on testing approaches (static and fuzzing). The related material contains some reference papers and a tutorial/challenge for fuzz-testing the xpdf package via the AFL fuzzer. 
 
 
 
