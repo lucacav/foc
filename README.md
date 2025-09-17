@@ -1,6 +1,6 @@
 # Foundations of Cybersecurity
 
-This is the public repository for the "Foundations of Cybersecurity" course held at University of Pavia. 
+This is the public repository for the "Foundations of Cybersecurity" course held at University of Pavia - Department of Electrical, Computer and Biomedical Engineering. 
 
 ----
 
@@ -20,7 +20,7 @@ Il corso è **organizzato** in moduli che trattano un tema base della sicurezza 
 
 ---
 
-**Important**: this repository will be udpadted during the year according to the **actual** schedule of the course. The language of the course (including all the materials) is **english**. 
+**Important**: this repository will be udpadted during the year according to the **actual pace** of the course. The language for the classes as well as for all the materials is **english**. 
 
 ## Organization of the Repository
 
@@ -48,7 +48,7 @@ This module covers how some security aspects can be analyzed and modeled. Specif
 
 ## Acknowledgments 
 
-The material used during the course and collected in this repository has been prepared with the help of many colleagues. Angelica Liguori is the owner of the code for watermarking AI models, while Marco Zuppelli prepared the digital media and network traffic examples. Giacomo Benedetti provided several examples, code, and ideas on the security of the software supply chain. Luca Veltri and Matteo Repetto shared the material used in their network security course. 
+The material used during the course and collected in this repository has been prepared with the help of many colleagues. Angelica Liguori is the owner of the code for watermarking AI models, while Marco Zuppelli prepared the digital media and network traffic examples. Giacomo Benedetti provided several examples, code, and ideas on the security of the software supply chain. Luca Veltri and Matteo Repetto shared with me the material used in their network security course. 
 
 ## Contacts
 
