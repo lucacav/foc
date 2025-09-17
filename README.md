@@ -1,6 +1,6 @@
 # Foundations of Cybersecurity
 
-This is the public repository for the "Foundations of Cybersecurity" course held at University of Pavia - Department of Electrical, Computer and Biomedical Engineering. 
+This is the repository for the "Foundations of Cybersecurity" course held at University of Pavia - Department of Electrical, Computer and Biomedical Engineering. 
 
 ----
 
