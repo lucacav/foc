@@ -52,7 +52,7 @@ The material used during the course and collected in this repository has been pr
 
 ## Contacts
 
-Feel free to contact me at luca.caviglione(AT)cnr.it
+Please, report any issue or mistake. And feel free to contact me at luca.caviglione(AT)cnr.it
 
 
 
