@@ -12,7 +12,7 @@ The course is **organized** in indpenendet **modules**, each one investigating a
 
 ---
 
-🇮🇹 L'obiettivo del corso è fornire una panoramica dei principali aspetti di cybersecurity alla base dei moderni ecosistemi software e infrastrutture di rete. Il corso consentirà di comprendere le vulnerabilità e le debolezze del software, riconoscere le cattive pratiche di sicurezza, i principali modelli di attacco, e di reperire autonomamente informazioni su malware e minacce informatiche.
+🇮🇹 L'**obiettivo** del corso è fornire una panoramica dei principali aspetti di cybersecurity alla base dei moderni ecosistemi software e infrastrutture di rete. Il corso consentirà di comprendere le vulnerabilità e le debolezze del software, riconoscere le cattive pratiche di sicurezza, i principali modelli di attacco, e di reperire autonomamente informazioni su malware e minacce informatiche.
 
 I **prerequisiti** del corso sono: conoscenza di base dei sistemi operativi e delle architetture hardware, nozioni di base di programmazione e dei protocolli di rete più diffusi.
 
