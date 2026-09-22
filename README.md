@@ -20,9 +20,9 @@ Il corso è **organizzato** in **moduli** auto-contenuti che trattano un tema ba
 
 ---
 
-🚨 **Important**: this repository will be updated during the year according to the **actual pace** of the course. As soon as a module will be ready to be used, its description and purpose will appear in this README file. Course material not yet covered in class should be intended only as reference for past students and interested readers.
+🚨 **Important**: this repository will be updated during the year according to the **actual pace** of the course. As soon as a module will be ready to be used, its description and purpose will appear in this README file. Course material not yet covered in class should be intended only as reference for past students and interested readers, i.e., it may not be up to date.
 
-🦖 **<span style="color:red">Past students</span>**: material of past editions of the course has been "packed" into a yearly release. Material of the 2025/2026 edition, including the README containing various details on lectures, can be found [here](https://github.com/lucacav/foc/releases/tag/Course-2025-2026).
+🦖 **Past students**: material of previous editions of the course has been "packed" into a yearly release. Material of lectures for the academic year 2025/2026, including the README with various details on lectures, can be found [here](https://github.com/lucacav/foc/releases/tag/Course-2025-2026).
 
 The official language for the classes as well as for all the material is **english**. 
 
