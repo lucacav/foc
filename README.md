@@ -8,7 +8,7 @@ This is the repository for the "Foundations of Cybersecurity" course held at Uni
 
 The **prerequisites** for the course are: basic understanding of operating systems and hardware architectures, basic knowledge of programming and of the most popular network protocols. 
 
-The course is **organized** in independent **modules**, each one investigating a major topic in cybersecurity related to the role of a professional engineer.
+The course is **organized** in self-contained **modules**, each one investigating a major topic in cybersecurity related to the role of a professional engineer.
 
 ---
 
@@ -20,9 +20,9 @@ Il corso è **organizzato** in **moduli** auto-contenuti che trattano un tema ba
 
 ---
 
-🚨 **Important**: this repository will be updated during the year according to the **actual pace** of the course. As soon as a module will be ready to be used, its description and purpose will appear in this README file. Course material not yet covered in class should be intended only as reference for past students and interested readers, i.e., it may not be up to date.
+🚨 **Important**: this repository will be updated during the year according to the **actual pace** of the course. As soon as a module will be ready to be used, its description and purpose will appear in this README file. Course material not yet covered in class should be intended only as a reference for past students and interested readers, i.e., it may not be up to date.
 
-The official language for the classes as well as for all the material is **english**. 
+📢 The official language for the classes as well as for all the material is **english**. 
 
 🦖 **Past students**: material of previous editions of the course has been "packed" into a yearly release. Material of lectures for the academic year 2025/2026, including the README with various details on lectures, can be found [here](https://github.com/lucacav/foc/releases/tag/Course-2025-2026).
 
@@ -30,7 +30,7 @@ The official language for the classes as well as for all the material is **engli
 
 ## Organization of the Repository
 
-Each module has its own set of material, which may vary according to the topic. The general organization of the repository is based on the following folders:
+Each module has its own set of resources, which may vary according to the topic. The general organization of the repository is based on the following folders:
 
 - Slides: the .pdf version of the slides;
 - Examples: various examples shown during the course, e.g., code, scripts, and outputs;
@@ -39,11 +39,11 @@ Each module has its own set of material, which may vary according to the topic. 
 
 ## Module 0 - Foreword
 
-This module discusses some bureaucracy and rules (e.g., what is needed to pass the course) just to crack the ice. 
+This module discusses some bureaucracy and general rules (e.g., what is needed to pass the course) just to crack the ice. 
 
 ## Module 1 - Introduction and Basics
 
-This module addresses some introductory information (e.g., the relevance of cybersecurity aspects), the Cyber Kill Chain, concepts related to the attack surface and attack surface reduction practices, and a brief discussion on the importance of considering human aspects. The related material contains some reference papers and official reports. 
+This module addresses some introductory information (e.g., the relevance of cybersecurity aspects), the Cyber Kill Chain, the MITRE ATT&CK framework, general concepts related to attack surface and attack surface reduction practices, and a brief discussion on the importance of considering human aspects. The related material contains some reference papers and official reports as well as examples of ATT&CK layers. 
 
 <!--
 ## Module 2 - Security Analysis and Modeling
