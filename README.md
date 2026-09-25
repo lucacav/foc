@@ -45,10 +45,12 @@ This module discusses some bureaucracy and general rules (e.g., what is needed t
 
 This module addresses some introductory information (e.g., the relevance of cybersecurity aspects), the Cyber Kill Chain, the MITRE ATT&CK framework, general concepts related to attack surface and attack surface reduction practices, and a brief discussion on the importance of considering human aspects. The related material contains some reference papers and official reports as well as examples of ATT&CK layers. 
 
-<!--
+
 ## Module 2 - Security Analysis and Modeling
 
-This module covers how some security aspects can be analyzed and modeled. Specifically, it deals with the Common Weaknesses Enumeration (CWE), the Common Vulnerability Enumeration (CVE), the Common Vulnerability Scoring System (CVSS), as well as a basic discussion on testing approaches (static and fuzzing). The related material contains some reference papers and a tutorial/challenge for fuzz-testing the xpdf package via the AFL fuzzer. 
+This module covers how some software security aspects can be analyzed and modeled. Specifically, it deals with the Common Weaknesses Enumeration (CWE), the Common Vulnerability Enumeration (CVE), and the Common Vulnerability Scoring System (CVSS). The modules also provides a basic discussion on testing approaches (static and fuzzing) as well as on the paradigm shift imposed by AI-based tools. The related material contains some reference papers, a tutorial/challenge for fuzz-testing the xpdf package via the AFL fuzzer, and an LLM analysis of a tiny Python script plagued by CWE-78.  
+
+<!--
 
 ## Module 3 - Software Supply Chain Security
 
