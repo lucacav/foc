@@ -1,0 +1,734 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬──────────┬──────────┐
+│                                      Target                                      │   Type   │ Licenses │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ grafana/grafana:latest (alpine 3.24.2)                                           │  alpine  │    -     │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/public/app/plugins/datasource/azuremonitor/package.json        │ node-pkg │    -     │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/public/app/plugins/datasource/cloudwatch/package.json          │ node-pkg │    -     │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/pac- │ node-pkg │    -     │
+│ kage.json                                                                        │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/public/app/plugins/datasource/graphite/package.json            │ node-pkg │    -     │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/bin/grafana                                                    │ gobinary │    -     │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/elasticsearch/gpx_grafana_elasticsearch_- │ gobinary │    -     │
+│ datasource_linux_amd64                                                           │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/grafana-postgresql-datasource/gpx_grafan- │ gobinary │    -     │
+│ a_postgresql_datasource_linux_amd64                                              │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/grafana-pyroscope-datasource/gpx_grafana- │ gobinary │    -     │
+│ -pyroscope-datasource_linux_amd64                                                │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/influxdb/gpx_grafana_influxdb_datasource- │ gobinary │    -     │
+│ _linux_amd64                                                                     │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/jaeger/gpx_grafana-jaeger-datasource_lin- │ gobinary │    -     │
+│ ux_amd64                                                                         │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/loki/gpx_grafana-loki-datasource_linux_a- │ gobinary │    -     │
+│ md64                                                                             │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/mssql/gpx_grafana-mssql-datasource_linux- │ gobinary │    -     │
+│ _amd64                                                                           │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/mysql/gpx_grafana-mysql-datasource_linux- │ gobinary │    -     │
+│ _amd64                                                                           │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/opentsdb/gpx_grafana-opentsdb-datasource- │ gobinary │    -     │
+│ _linux_amd64                                                                     │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/prometheus/gpx_grafana-prometheus-dataso- │ gobinary │    -     │
+│ urce_linux_amd64                                                                 │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/stackdriver/gpx_grafana_cloudmonitoring_- │ gobinary │    -     │
+│ datasource_linux_amd64                                                           │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/tempo/gpx_grafana-tempo-datasource_linux- │ gobinary │    -     │
+│ _amd64                                                                           │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ usr/share/grafana/data/plugins-bundled/zipkin/gpx_grafana-zipkin-datasource_lin- │ gobinary │    -     │
+│ ux_amd64                                                                         │          │          │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ OS Packages                                                                      │    -     │    41    │
+├──────────────────────────────────────────────────────────────────────────────────┼──────────┼──────────┤
+│ Loose File License(s)                                                            │    -     │   190    │
+└──────────────────────────────────────────────────────────────────────────────────┴──────────┴──────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+OS Packages (license)
+=====================
+Total: 41 (UNKNOWN: 5, LOW: 16, MEDIUM: 2, HIGH: 18, CRITICAL: 0)
+
+┌────────────────────────┬───────────────────┬────────────────┬──────────┐
+│        Package         │      License      │ Classification │ Severity │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ alpine-baselayout      │ GPL-2.0-only      │ restricted     │ HIGH     │
+├────────────────────────┤                   │                │          │
+│ alpine-baselayout-data │                   │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ alpine-keys            │ MIT               │ notice         │ LOW      │
+├────────────────────────┤                   │                │          │
+│ alpine-release         │                   │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ apk-tools              │ GPL-2.0-only      │ restricted     │ HIGH     │
+├────────────────────────┼───────────────────┤                │          │
+│ bash                   │ GPL-3.0-or-later  │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ brotli-libs            │ MIT               │ notice         │ LOW      │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ bubblewrap             │ LGPL-2.1-or-later │ restricted     │ HIGH     │
+├────────────────────────┼───────────────────┤                │          │
+│ busybox                │ GPL-2.0-only      │                │          │
+├────────────────────────┤                   │                │          │
+│ busybox-binsh          │                   │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ c-ares                 │ MIT               │ notice         │ LOW      │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ ca-certificates        │ MPL-2.0           │ reciprocal     │ MEDIUM   │
+│                        ├───────────────────┼────────────────┼──────────┤
+│                        │ MIT               │ notice         │ LOW      │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ ca-certificates-bundle │ MPL-2.0           │ reciprocal     │ MEDIUM   │
+│                        ├───────────────────┼────────────────┼──────────┤
+│                        │ MIT               │ notice         │ LOW      │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ curl                   │ curl              │ unknown        │ UNKNOWN  │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libapk                 │ GPL-2.0-only      │ restricted     │ HIGH     │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libcap2                │ BSD-3-Clause      │ notice         │ LOW      │
+│                        ├───────────────────┼────────────────┼──────────┤
+│                        │ GPL-2.0-only      │ restricted     │ HIGH     │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libcrypto3             │ Apache-2.0        │ notice         │ LOW      │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libcurl                │ curl              │ unknown        │ UNKNOWN  │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libidn2                │ GPL-2.0-or-later  │ restricted     │ HIGH     │
+│                        ├───────────────────┤                │          │
+│                        │ LGPL-3.0-or-later │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libncursesw            │ X-11              │ unknown        │ UNKNOWN  │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libpsl                 │ MIT               │ notice         │ LOW      │
+├────────────────────────┼───────────────────┤                │          │
+│ libssl3                │ Apache-2.0        │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ libunistring           │ GPL-2.0-or-later  │ restricted     │ HIGH     │
+│                        ├───────────────────┤                │          │
+│                        │ LGPL-3.0-or-later │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ musl                   │ MIT               │ notice         │ LOW      │
+├────────────────────────┤                   │                │          │
+│ musl-utils             │                   │                │          │
+│                        ├───────────────────┤                │          │
+│                        │ BSD-2-Clause      │                │          │
+│                        ├───────────────────┼────────────────┼──────────┤
+│                        │ GPL-2.0-or-later  │ restricted     │ HIGH     │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ ncurses-terminfo-base  │ X-11              │ unknown        │ UNKNOWN  │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ nghttp2-libs           │ MIT               │ notice         │ LOW      │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ readline               │ GPL-3.0-or-later  │ restricted     │ HIGH     │
+├────────────────────────┼───────────────────┤                │          │
+│ scanelf                │ GPL-2.0-only      │                │          │
+├────────────────────────┤                   │                │          │
+│ ssl_client             │                   │                │          │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ tzdata                 │ Public-Domain     │ unknown        │ UNKNOWN  │
+├────────────────────────┼───────────────────┼────────────────┼──────────┤
+│ zlib                   │ Zlib              │ notice         │ LOW      │
+├────────────────────────┼───────────────────┤                │          │
+│ zstd-libs              │ BSD-3-Clause      │                │          │
+│                        ├───────────────────┼────────────────┼──────────┤
+│                        │ GPL-2.0-or-later  │ restricted     │ HIGH     │
+└────────────────────────┴───────────────────┴────────────────┴──────────┘
+
+Loose File License(s) (license)
+===============================
+Total: 190 (UNKNOWN: 2, LOW: 170, MEDIUM: 0, HIGH: 0, CRITICAL: 18)
+
+┌────────────────┬──────────┬──────────────┬──────────────────────────────────────────────────────────────┐
+│ Classification │ Severity │   License    │                        File Location                         │
+├────────────────┼──────────┼──────────────┼──────────────────────────────────────────────────────────────┤
+│ forbidden      │ CRITICAL │ AGPL-3.0     │ usr/share/grafana/LICENSE                                    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/elasticsearch/LICENSE │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/grafana-postgresql-d- │
+│                │          │              │ atasource/LICENSE                                            │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/grafana-pyroscope-da- │
+│                │          │              │ tasource/LICENSE                                             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/influxdb/LICENSE      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/jaeger/LICENSE        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/loki/LICENSE          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/mssql/LICENSE         │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/mysql/LICENSE         │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/opentsdb/LICENSE      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/prometheus/LICENSE    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/stackdriver/LICENSE   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/tempo/LICENSE         │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/data/plugins-bundled/zipkin/LICENSE        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/datasource/azuremonito- │
+│                │          │              │ r/dist/LICENSE                                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/datasource/cloudwatch/- │
+│                │          │              │ dist/LICENSE                                                 │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/datasource/grafana-tes- │
+│                │          │              │ tdata-datasource/dist/LICENSE                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/datasource/graphite/di- │
+│                │          │              │ st/LICENSE                                                   │
+├────────────────┼──────────┼──────────────┼──────────────────────────────────────────────────────────────┤
+│ notice         │ LOW      │ Apache-2.0   │ usr/share/grafana/public/app/core/services/mousetrap/Mouset- │
+│                │          │              │ rap.ts                                                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/index.test.ts                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/index.tsx                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test1.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test2.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test3.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test4.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test5.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test6.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test7.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test8.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/testCases/test9.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/utils/findLastFinishingChildSpan.test.- │
+│                │          │              │ ts                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/utils/findLastFinishingChildSpan.tsx    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/utils/getChildOfSpans.test.ts           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/utils/getChildOfSpans.tsx               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/utils/sanitizeOverFlowingChildren.test- │
+│                │          │              │ .ts                                                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/CriticalPath/utils/sanitizeOverFlowingChildren.tsx   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/ScrollManager.test.ts                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/ScrollManager.tsx                                    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/Theme.tsx                                            │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SearchBar/NextPrevResult.test.tsx    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SearchBar/NextPrevResult.tsx         │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SearchBar/TracePageSearchBar.test.t- │
+│                │          │              │ sx                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SearchBar/TracePageSearchBar.tsx     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/CanvasSpanGraph.test.tsx   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/CanvasSpanGraph.tsx        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/GraphTicks.test.tsx        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/GraphTicks.tsx             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/Scrubber.test.tsx          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/Scrubber.tsx               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/TickLabels.test.tsx        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/TickLabels.tsx             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/ViewingLayer.test.tsx      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/ViewingLayer.tsx           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/index.test.tsx             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/index.tsx                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/render-into-canvas.test.ts │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/SpanGraph/render-into-canvas.tsx     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/TracePageHeader.test.tsx             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TracePageHeader/TracePageHeader.tsx                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/ListView/Positions.test.ts       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/ListView/Positions.tsx           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/ListView/index.test.tsx          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/ListView/index.tsx               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanBar.test.tsx                 │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanBar.tsx                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanBarRow.test.tsx              │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanBarRow.tsx                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/AccordionKeyValues.m- │
+│                │          │              │ arkers.tsx                                                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/AccordionKeyValues.t- │
+│                │          │              │ est.tsx                                                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/AccordionKeyValues.t- │
+│                │          │              │ sx                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/AccordionLogs.test.t- │
+│                │          │              │ sx                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/AccordionLogs.tsx     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/AccordionReferences.- │
+│                │          │              │ test.tsx                                                     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/AccordionReferences.- │
+│                │          │              │ tsx                                                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/DetailState.tsx       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/KeyValuesTable.test.- │
+│                │          │              │ tsx                                                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/KeyValuesTable.tsx    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/TextList.test.tsx     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/TextList.tsx          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/index.test.tsx        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/index.tsx             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetailRow.test.tsx           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetailRow.tsx                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanTreeOffset.test.tsx          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanTreeOffset.tsx               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/Ticks.test.tsx                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/Ticks.tsx                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineColla- │
+│                │          │              │ pser.test.tsx                                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineColla- │
+│                │          │              │ pser.tsx                                                     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineColum- │
+│                │          │              │ nResizer.test.tsx                                            │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineColum- │
+│                │          │              │ nResizer.tsx                                                 │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineHeade- │
+│                │          │              │ rRow.test.tsx                                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineHeade- │
+│                │          │              │ rRow.tsx                                                     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineViewi- │
+│                │          │              │ ngLayer.test.tsx                                             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineHeaderRow/TimelineViewi- │
+│                │          │              │ ngLayer.tsx                                                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/TimelineRow.tsx                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/VirtualizedTraceView.test.tsx    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/VirtualizedTraceView.tsx         │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/index.test.tsx                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/index.tsx                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/types.tsx                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/utils.test.ts                    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/utils.tsx                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/Tween.test.ts                                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/Tween.tsx                                            │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/common/CopyIcon.test.tsx                             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/common/CopyIcon.tsx                                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/common/LabeledList.tsx                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/common/SearchBarInput.test.tsx                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/common/SearchBarInput.tsx                            │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/constants/default-config.ts                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/constants/index.tsx                                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/constants/tag-keys.tsx                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/demo/trace-generators.ts                             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/keyboard-mappings.tsx                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/keyboard-shortcuts.tsx                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/ddg/PathElem.test.ts                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/ddg/PathElem.tsx                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/ddg/sample-paths.test.resources.ts             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/ddg/types.tsx                                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/find-trace-name.test.ts                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/link-patterns.test.ts                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/link-patterns.tsx                              │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/trace-viewer.ts                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/transform-trace-data.test.ts                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/model/transform-trace-data.tsx                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/scroll-page.test.ts                                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/scroll-page.tsx                                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/selectors/span.test.ts                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/selectors/span.ts                                    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/selectors/trace.fixture.ts                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/selectors/trace.test.ts                              │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/selectors/trace.ts                                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/types/TNil.tsx                                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/types/TTraceTimeline.tsx                             │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/types/trace.ts                                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/url/ReferenceLink.test.tsx                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/url/ReferenceLink.tsx                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/DraggableManager/DraggableManager.test.ts      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/DraggableManager/DraggableManager.tsx          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/DraggableManager/EUpdateTypes.tsx              │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/DraggableManager/demo/DividerDemo.css          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/DraggableManager/demo/DraggableManagerDemo.css │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/DraggableManager/demo/RegionDemo.css           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/DraggableManager/types.tsx                     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/TreeNode.test.ts                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/TreeNode.ts                                    │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/color-generator.test.ts                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/color-generator.tsx                            │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/config/get-config.tsx                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/date.test.ts                                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/date.tsx                                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/filter-spans.test.ts                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/filter-spans.tsx                               │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/sort.test.ts                                   │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/sort.ts                                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/span-ancestor-ids.test.ts                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/span-ancestor-ids.tsx                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/utils/test/requestAnimationFrame.ts                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/features/explore/TraceView/cus- │
+│                │          │              │ tom.d.ts                                                     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/datasource/azuremonito- │
+│                │          │              │ r/dataquery.cue                                              │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/datasource/cloudwatch/- │
+│                │          │              │ dataquery.cue                                                │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/annolist/panelcf- │
+│                │          │              │ g.cue                                                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/barchart/panelcf- │
+│                │          │              │ g.cue                                                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/bargauge/panelcf- │
+│                │          │              │ g.cue                                                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/candlestick/pane- │
+│                │          │              │ lcfg.cue                                                     │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/canvas/panelcfg.- │
+│                │          │              │ cue                                                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/dashlist/panelcf- │
+│                │          │              │ g.cue                                                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/debug/panelcfg.c- │
+│                │          │              │ ue                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/gauge/panelcfg.c- │
+│                │          │              │ ue                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/geomap/panelcfg.- │
+│                │          │              │ cue                                                          │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/heatmap/panelcfg- │
+│                │          │              │ .cue                                                         │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/histogram/panelc- │
+│                │          │              │ fg.cue                                                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/logs/panelcfg.cue │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/logstable/panelc- │
+│                │          │              │ fg.cue                                                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/news/panelcfg.cue │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/nodeGraph/panelc- │
+│                │          │              │ fg.cue                                                       │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/piechart/panelcf- │
+│                │          │              │ g.cue                                                        │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/stat/panelcfg.cue │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/state-timeline/p- │
+│                │          │              │ anelcfg.cue                                                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/status-history/p- │
+│                │          │              │ anelcfg.cue                                                  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/table/panelcfg.c- │
+│                │          │              │ ue                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/text/panelcfg.cue │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/timeseries/panel- │
+│                │          │              │ cfg.cue                                                      │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/trend/panelcfg.c- │
+│                │          │              │ ue                                                           │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/app/plugins/panel/xychart/panelcfg- │
+│                │          │              │ .cue                                                         │
+│                │          ├──────────────┼──────────────────────────────────────────────────────────────┤
+│                │          │ MIT          │ usr/share/grafana/public/app/features/explore/TraceView/com- │
+│                │          │              │ ponents/TraceTimelineViewer/SpanDetail/jsonMarkup.js         │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/build/7606.e8e4d98948a4bb1cf3bc.js  │
+├────────────────┼──────────┼──────────────┼──────────────────────────────────────────────────────────────┤
+│ unknown        │ UNKNOWN  │ BSD-0-Clause │ usr/share/grafana/public/build/7144.411d88963cca7f10f4fa.js  │
+│                │          │              ├──────────────────────────────────────────────────────────────┤
+│                │          │              │ usr/share/grafana/public/build/canvasPanel.00ec2445e51b50d2- │
+│                │          │              │ 09fb.js                                                      │
+└────────────────┴──────────┴──────────────┴──────────────────────────────────────────────────────────────┘

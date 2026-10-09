@@ -1,0 +1,5 @@
+trivy image --scanners vuln  --format table --output vuln-grafana.txt grafana/grafana:latest
+
+trivy image --scanners license --license-full --format table --output license-alpine.txt debian
+
+trivy image --scanners vuln  --format json --output vuln-debian.json debian

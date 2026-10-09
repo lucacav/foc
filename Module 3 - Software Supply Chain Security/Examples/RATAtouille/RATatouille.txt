@@ -1,0 +1,4 @@
+SHA256 1734363d5eb57579fd6195714f31dd7d9c272305f0b30eea778ad08fe5bc3412
+Source: https://bazaar.abuse.ch/download/1734363d5eb57579fd6195714f31dd7d9c272305f0b30eea778ad08fe5bc3412/
+Source: https://bazaar.abuse.ch/browse/tag/RATatouille/
+Password: infected
